@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าเว็บสวย ๆ</title>
+    <style>
+        /* Reset เบื้องต้น */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #333;
+        }
+
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffdd57;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        section h2 {
+            color: #4a90e2;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #4a90e2;
+            color: white;
+            margin-top: 40px;
+        }
+
+        /* ปรับ responsive สำหรับมือถือ */
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>เว็บสวย ๆ ของฉัน</h1>
+        <nav>
+            <a href="#about">เกี่ยวกับเรา</a>
+            <a href="#services">บริการ</a>
+            <a href="#contact">ติดต่อ</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>เกี่ยวกับเรา</h2>
+            <p>นี่คือหน้าเว็บตัวอย่างที่มีดีไซน์สวยงาม เรียบง่าย และตอบสนองต่อทุกอุปกรณ์ สามารถนำไปปรับใช้เป็น portfolio หรือเว็บไซต์ธุรกิจขนาดเล็กได้</p>
+        </section>
+
+        <section id="services">
+            <h2>บริการของเรา</h2>
+            <p>เราให้บริการออกแบบเว็บไซต์ การตลาดออนไลน์ และพัฒนาแอปพลิเคชันต่าง ๆ ด้วยทีมงานมืออาชีพ</p>
+        </section>
+
+        <section id="contact">
+            <h2>ติดต่อเรา</h2>
+            <p>โทร: 0909433167<br>อีเมล: ssrdragon2546<br>ที่อยู่: กรุงเทพฯ ประเทศไทย</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 ผู้จัดทำAthiwat
+    </footer>
+</body>
+</html>
